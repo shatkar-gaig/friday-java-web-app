@@ -3,10 +3,10 @@ kind: Workload
 metadata:
   name: friday-java-web-app
   labels:
-    apps.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/workload-type: server
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
     app.kubernetes.io/part-of: friday-java-web-app
-  namespace: jeremy
+  namespace: tap-workload
 spec:
   build:
     env:
@@ -18,6 +18,6 @@ spec:
       autoscaling.knative.dev/minScale: "1"
   source:
     git:
-      url: https://github.com/x95castle1/friday-java-web-app
+      url: https://github.com/shatkar-gaig/friday-java-web-app.git
       ref:
         branch: main

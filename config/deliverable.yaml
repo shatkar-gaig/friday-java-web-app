@@ -5,9 +5,9 @@ metadata:
   labels:
     app.kubernetes.io/part-of: friday-java-web-app
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
-    apps.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/workload-type: server
     app.kubernetes.io/component: deliverable
-    app.tanzu.vmware.com/deliverable-type: web
+    app.tanzu.vmware.com/deliverable-type: server
     carto.run/cluster-template-name: external-deliverable-template
     carto.run/resource-name: deliverable
     carto.run/supply-chain-name: source-to-url
