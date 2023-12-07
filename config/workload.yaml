@@ -3,7 +3,7 @@ kind: Workload
 metadata:
   name: friday-java-web-app
   labels:
-    apps.tanzu.vmware.com/workload-type: server
+    apps.tanzu.vmware.com/workload-type: web
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
     app.kubernetes.io/part-of: friday-java-web-app
   namespace: tap-workload
